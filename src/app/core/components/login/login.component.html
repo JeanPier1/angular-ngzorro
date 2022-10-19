@@ -29,7 +29,6 @@
             nz-form
             [formGroup]="validateForm"
             class="login-form"
-            (ngSubmit)="submitForm()"
           >
             <nz-form-item>
               <nz-form-control nzErrorTip="¡Por favor ingresar su usuario!">
@@ -69,6 +68,8 @@
               nz-button
               class="login-form-button login-form-margin"
               [nzType]="'primary'"
+              [disabled]="!this.validateForm.valid"
+              (click)="submitForm()"
             >
               Iniciar Session
             </button>

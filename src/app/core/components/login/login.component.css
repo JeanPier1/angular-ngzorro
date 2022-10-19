@@ -12,10 +12,12 @@
 .login {
   padding-top: 80px;
   padding-left: 25px;
+  transition: ease all 0.5s;
 }
 
 .main-login {
   background-color: rgb(32, 34, 37);
+  opacity: 0.9;
   color: #fff;
   width: 550px;
   height: 750px;
@@ -23,7 +25,7 @@
   transition: ease all 0.5s;
 }
 
-@media only screen and (max-width: 472px) {
+@media only screen and (max-width: 1065px) {
   .main-login {
     width: 400px;
   }
