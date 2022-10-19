@@ -1,0 +1,68 @@
+.main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../../assets/images/upeu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  padding-top: 80px;
+  padding-left: 25px;
+}
+
+.main-login {
+  background-color: rgb(32, 34, 37);
+  color: #fff;
+  width: 550px;
+  height: 750px;
+  border-radius: 10px;
+  transition: ease all 0.5s;
+}
+
+@media only screen and (max-width: 472px) {
+  .main-login {
+    width: 400px;
+  }
+  .login {
+    padding-left: 0px;
+  }
+}
+h2 {
+  color: #fff;
+}
+
+.login-form {
+  max-width: auto;
+}
+
+.login-form-margin {
+  margin-bottom: 16px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.txt-login {
+  text-align: center;
+  color: #fff;
+}
+
+.google-txt {
+  font-size: 18px;
+}
+.logo {
+  font-size: 25px;
+}
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
