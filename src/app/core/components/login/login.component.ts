@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  submitForm(): void {
+  submitForm() {
     if (this.validateForm.valid) {
       console.log('submit', this.validateForm.value);
     } else {

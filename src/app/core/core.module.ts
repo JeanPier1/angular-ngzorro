@@ -29,5 +29,9 @@ registerLocaleData(es);
     ReactiveFormsModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: es_ES }],
+  exports:[
+    NavbarComponent,
+    PageNotFoundComponent
+  ]
 })
 export class CoreModule {}
